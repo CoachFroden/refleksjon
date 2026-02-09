@@ -121,6 +121,7 @@ showRegisterBtn.onclick = () => {
   loginBox.hidden = true;
   registerBox.hidden = false;
 };
+
 showLoginBtn.onclick = () => {
   registerBox.hidden = true;
   loginBox.hidden = false;

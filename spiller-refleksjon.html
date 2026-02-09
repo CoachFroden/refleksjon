@@ -23,20 +23,20 @@
   <main class="container">
 
     <div id="authBox" class="card">
-      <h2>Refleksjon</h2>
+<h2 class="auth-title">Refleksjon</h2>
 
-<p class="hint" style="margin-bottom:12px;">
-  Dette er din personlige refleksjonsside.
-  Her kan du svare på spørsmål etter trening og følge din egen utvikling.
+<p class="auth-intro">
+  Dette er <strong>din personlige side</strong>.
 </p>
 
-<p class="hint" style="margin-bottom:12px;">
-  Det du skriver er <strong>kun synlig for deg og treneren</strong>.
+<p class="auth-intro">
+  Her svarer du kort etter trening.
 </p>
 
-<p class="hint" style="margin-bottom:18px;">
-  Hvis du lager ny bruker, må kontoen godkjennes av trener før du får tilgang.
+<p class="auth-intro muted">
+  Bare du og treneren kan se det du skriver.
 </p>
+
 
 
       <!-- LOGIN -->
@@ -54,8 +54,10 @@
 
 
         <p>
-          Har du ikke konto?
-          <button id="showRegisterBtn" class="secondary">Lag bruker</button>
+          <button id="showRegisterBtn" class="secondary">
+  Har du ikke konto? Lag bruker
+</button>
+
         </p>
 
         <div class="status" id="loginStatus"></div>
@@ -76,8 +78,10 @@
         <button id="registerBtn">Opprett bruker</button>
 
         <p>
-          Har du allerede konto?
-          <button id="showLoginBtn" class="secondary">Logg inn</button>
+          <button id="showLoginBtn" class="secondary">
+  ← Tilbake
+</button>
+
         </p>
 		
 		
@@ -111,11 +115,11 @@
     placeholder="Passord"
     autocomplete="current-password"
   />
-
+<p>
   <button id="coachLoginBtn">
     Logg inn som trener
   </button>
-
+</p>
   <p id="coachLoginStatus" class="status"></p>
 
 </div>
